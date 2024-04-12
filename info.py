@@ -49,7 +49,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jaiveer55:jaiveer2010@bot.n7enhyk.mongodb.net/?retryWrites=true&w=majority&appName=bot")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jaiveer55:dYd5uBYZ7QsHh5Xf@bot.n7enhyk.mongodb.net/?retryWrites=true&w=majority&appName=bot")
 DATABASE_NAME = environ.get('DATABASE_NAME', "jaiveer55")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
