@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '26395590'))
 API_HASH = environ.get('API_HASH', '68ab1c74d05cfc38965949d30abe11b0')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7018048264:AAEi2xeE6-sZjJ5qEusrvvKCszdorJ_dkB4 ")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 800))
@@ -63,8 +63,8 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'JAIVEER05') # owner username wit
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/jaimods')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/jaimods')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/trend9955/6')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'trend9955/6') # Support Chat Link Without https:// or @
+TUTORIAL = environ.get('TUTORIAL', '.  ')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion') # Support Chat Link Without https:// or @
 
 # True Or False
 PM_SEARCH = bool(environ.get('PM_SEARCH', True)) # In Pm Search Currently Spell Check Doesn't Work.
