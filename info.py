@@ -63,8 +63,8 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'JAIVEER05') # owner username wit
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/jaimods')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/jaimods')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion') # Support Chat Link Without https:// or @
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/trend9955/6')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'trend9955/6') # Support Chat Link Without https:// or @
 
 # True Or False
 PM_SEARCH = bool(environ.get('PM_SEARCH', True)) # In Pm Search Currently Spell Check Doesn't Work.
