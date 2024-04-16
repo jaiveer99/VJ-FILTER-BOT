@@ -683,12 +683,6 @@ Also your tutorial will be Added Your Group..."""
 special Thanks To ❤️ Developers -
 
 -Dev 1 [Owner of this bot ]<a href='https://t.me/jaiveer05'>jaiveer</a>
-
--Dev 2 <a href='https://t.me/jaimods'>mods</a>
-
--Dev 3 <a href='https://t.me/jaimods>mods</a>
-
-- Dev 4 <a href='https://t.me/jaimods'>mods</a>
 """
 
 
