@@ -49,8 +49,8 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jaiveer99:6RvikVihFDrF8vTX@bot.w3nspz8.mongodb.net/?retryWrites=true&w=majority&appName=bot")
-DATABASE_NAME = environ.get('DATABASE_NAME', "jaiveer99")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jaiveer88:cLPInnexWyUG7aqM@cluster0.eyeyugn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "jaiveer88")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Premium And Referal Settings
