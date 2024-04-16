@@ -50,7 +50,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI',  "mongodb+srv://jaiveer4545:0KOYGn4vPGYHA9aC@jjjj.xehgciw.mongodb.net/?retryWrites=true&w=majority&appName=Jjjj")
-DATABASE_NAME = environ.get('DATABASE_NAME', "jaiveer4545")
+DATABASE_NAME = environ.get('DATABASE_NAME', "telegram")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Premium And Referal Settings
